@@ -26,6 +26,7 @@ nav {
   justify-content: space-between;
   padding: 10px;
   margin: 0px 200px;
+  background-color: transparent;
 }
 
 .title {
@@ -65,12 +66,12 @@ header {
 .banner {
   display: flex;
   align-items: center;
-  background-image: url('../images/header_bg.png');
+  background-image: url('../images/header_bg.png'), url('../images/developer.png');
+  z-index: 1;
   background-repeat: no-repeat;
-  background-position: bottom right;
-  padding: 30px 30px 0px 150px;
+  background-position: bottom right, bottom left;
+  padding: 30px 30px 0px 200px;
 }
-
 .banner-title {
   color: #474747;
   font-size: 20px;
@@ -100,8 +101,7 @@ header {
 }
 
 .banner-image {
-  width: auto;
-  height: 640px;
+  height: 700px;
   margin-bottom: 0px;
 }
 
