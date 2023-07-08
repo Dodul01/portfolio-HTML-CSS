@@ -69,12 +69,13 @@ header {
   background-image: url('../images/header_bg.png'), url('../images/developer.png');
   z-index: 1;
   background-repeat: no-repeat;
-  background-position: bottom right, bottom left;
+  background-position: bottom right, top left;
   padding: 30px 30px 0px 200px;
 }
+
 .banner-title {
   color: #474747;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
 }
@@ -101,8 +102,24 @@ header {
 }
 
 .banner-image {
-  height: 700px;
+  height: 730px;
   margin-bottom: 0px;
 }
 
 /*Header styles end here*/
+
+
+main{
+
+}
+
+/*About section styles start here*/
+
+.about-section {
+  width: 1140px;
+  height: 550px;
+  border-radius: 10px;
+  background: #FFF8F3;
+}
+
+/*About section styles end here*/
