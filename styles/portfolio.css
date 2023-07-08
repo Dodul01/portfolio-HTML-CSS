@@ -117,7 +117,7 @@ header {
 
 
 main {
-  max-width: 1140px;
+  max-width: 1240px;
   margin: auto;
 }
 
@@ -129,7 +129,7 @@ main {
   justify-content: center;
   width: 1140px;
   height: 550px;
-  margin: 130px 0px;
+  margin: 120px 0px;
   border-radius: 10px;
   background: #FFF8F3;
 }
@@ -154,7 +154,47 @@ main {
   margin-top: 30px;
 }
 
-.about-info-container div{
+.about-info-container div {
   text-align: center;
 }
+
 /*About section styles end here*/
+
+/*Skill section styles end here*/
+.skill-content {
+  padding: 150px;
+}
+
+.skill-desc {
+  color: #757575;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.skill-card-container {
+  display: flex;
+}
+
+.card {
+  margin: 25px;
+  border-radius: 5px;
+  background: #FFF;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.09);
+  padding: 20px;
+  
+}
+
+.card p {
+  color: #757575;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.card img{
+  margin-bottom: 20px;
+}
+/*Skill section styles end here*/
