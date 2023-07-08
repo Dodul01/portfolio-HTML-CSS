@@ -65,7 +65,7 @@ header {
 .banner {
   display: flex;
   align-items: center;
-  background-image: url("../images/header_bg.png");
+  background-image: url('../images/header_bg.png');
   padding: 30px 30px 0px 150px;
 }
 
