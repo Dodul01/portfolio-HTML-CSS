@@ -17,6 +17,13 @@
   cursor: pointer;
 }
 
+.primery-title {
+  color: #181818;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
+
 /*Common style start here*/
 
 /*Nav styles start here*/
@@ -109,17 +116,45 @@ header {
 /*Header styles end here*/
 
 
-main{
-
+main {
+  max-width: 1140px;
+  margin: auto;
 }
 
 /*About section styles start here*/
 
 .about-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 1140px;
   height: 550px;
+  margin: 130px 0px;
   border-radius: 10px;
   background: #FFF8F3;
 }
 
+.about-content {
+  padding: 150px;
+}
+
+.about-desc {
+  color: #757575;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 30px;
+}
+
+.about-info-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.about-info-container div{
+  text-align: center;
+}
 /*About section styles end here*/
