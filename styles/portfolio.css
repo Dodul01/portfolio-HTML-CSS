@@ -66,6 +66,8 @@ header {
   display: flex;
   align-items: center;
   background-image: url('../images/header_bg.png');
+  background-repeat: no-repeat;
+  background-position: bottom right;
   padding: 30px 30px 0px 150px;
 }
 
@@ -73,29 +75,34 @@ header {
   color: #474747;
   font-size: 20px;
   font-weight: 600;
-  margin-bottom: 2px;
+  margin-bottom: 5px;
 }
 
 .banner-uname {
   color: #181818;
   font-size: 40px;
   font-weight: 700;
-  margin-bottom: 5px;
+  margin-bottom: 15px;
 }
 
 .banner-desc {
-  color:  #757575;
+  color: #757575;
   font-size: 18px;
   font-weight: 400;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
-.contact-mebtn{
+
+.contact-mebtn {
   background-color: transparent;
   border: 1px solid #FD6E0A;
   color: #FD6E0A;
-  margin-left: 5px; 
+  margin-left: 5px;
 }
-.banner-image{
-  width: 500px;
+
+.banner-image {
+  width: auto;
+  height: 640px;
+  margin-bottom: 0px;
 }
+
 /*Header styles end here*/
